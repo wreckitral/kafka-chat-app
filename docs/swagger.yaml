@@ -1,0 +1,17 @@
+info:
+  contact:
+    email: defhanayasofhiea@gmail.com
+    name: Defhanaya Sofhiea
+  description: Chat app integrated with kafka, made using Golang and fiber
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+  title: kafka Chat app
+  version: "1.0"
+paths: {}
+securityDefinitions:
+  ApiKeyAuth:
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"
